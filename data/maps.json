@@ -1,0 +1,37 @@
+{
+  "Pakistan_Neighbors_Simplified": {
+    "countries": ["Pakistan", "India", "Afghanistan", "Iran", "China"],
+    "neighbors": {
+      "Pakistan": ["India", "Afghanistan", "Iran", "China"],
+      "India": ["Pakistan", "China"],
+      "Afghanistan": ["Pakistan", "Iran", "China"],
+      "Iran": ["Pakistan", "Afghanistan"],
+      "China": ["Pakistan", "India", "Afghanistan"]
+    }
+  },
+  "Western_Europe_Sample": {
+    "countries": ["France", "Spain", "Portugal", "Belgium", "Germany", "Italy", "Switzerland"],
+    "neighbors": {
+      "France": ["Spain", "Belgium", "Germany", "Italy", "Switzerland"],
+      "Spain": ["France", "Portugal"],
+      "Portugal": ["Spain"],
+      "Belgium": ["France", "Germany"],
+      "Germany": ["France", "Belgium", "Switzerland"],
+      "Italy": ["France", "Switzerland"],
+      "Switzerland": ["France", "Germany", "Italy"]
+    }
+  },
+  "South_America_Sample": {
+    "countries": ["Brazil", "Argentina", "Uruguay", "Paraguay", "Bolivia", "Peru", "Colombia", "Venezuela"],
+    "neighbors": {
+      "Brazil": ["Argentina", "Uruguay", "Paraguay", "Bolivia", "Peru", "Colombia", "Venezuela"],
+      "Argentina": ["Brazil", "Uruguay", "Paraguay", "Bolivia"],
+      "Uruguay": ["Brazil", "Argentina"],
+      "Paraguay": ["Brazil", "Argentina", "Bolivia"],
+      "Bolivia": ["Brazil", "Argentina", "Paraguay", "Peru"],
+      "Peru": ["Brazil", "Bolivia", "Colombia"],
+      "Colombia": ["Brazil", "Peru", "Venezuela"],
+      "Venezuela": ["Brazil", "Colombia"]
+    }
+  }
+}
